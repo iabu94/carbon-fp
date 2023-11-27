@@ -1,0 +1,36 @@
+<mat-stepper orientation="vertical">
+  <!-- Welcome -->
+  <mat-step>
+    <ng-template matStepLabel>Welcome</ng-template>
+    <app-welcome />
+  </mat-step>
+  <!-- House -->
+  <mat-step>
+    <ng-template matStepLabel>House</ng-template>
+    <app-house />
+  </mat-step>
+  <!-- Car -->
+  <mat-step>
+    <ng-template matStepLabel>Car</ng-template>
+    <app-car />
+  </mat-step>
+  <!-- Motorbike -->
+  <mat-step>
+    <ng-template matStepLabel>Motorbike</ng-template>
+    <app-motorbike />
+  </mat-step>
+  <!-- Bus & Rail -->
+  <mat-step>
+    <ng-template matStepLabel>Bus & Train</ng-template>
+    <app-busrail />
+  </mat-step>
+  <!-- Secondary -->
+  <mat-step>
+    <ng-template matStepLabel>Secondary</ng-template>
+    <app-secondary />
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Results</ng-template>
+    <app-results />
+  </mat-step>
+</mat-stepper>

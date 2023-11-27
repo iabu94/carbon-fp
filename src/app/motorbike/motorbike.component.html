@@ -1,0 +1,21 @@
+<p>Motorbike carbon footprint calculator</p>
+<div class="">
+  <form action="">
+    <mat-form-field>
+      <mat-label>Engine CC</mat-label>
+      <mat-select>
+        <mat-option value="1"> < 125cc</mat-option>
+        <mat-option value="2"> 125cc - 500cc </mat-option>
+        <mat-option value="3"> > 500cc </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Mileage</mat-label>
+      <input matInput placeholder="km" />
+    </mat-form-field>
+  </form>
+</div>
+<button mat-button matStepperPrevious mat-raised-button>Back</button>
+<button mat-button matStepperNext mat-raised-button color="primary">
+  Next
+</button>
